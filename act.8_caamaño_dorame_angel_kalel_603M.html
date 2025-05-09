@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Imágenes</title>
+    <style>
+        body {
+            background-color: #3B3B3B;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            position: relative;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .large-img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+        }
+        .small-img {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .small-img img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+        .corner-img {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <img src="../imagenes brawl kc/bsang22.jpg" alt="Imagen Grande" class="large-img">
+    <div class="small-img">
+           <a href="meeple.html"> <img src="../imagenes brawl kc/meeple.jpg" alt="meepele"></a>
+            <a href="finx.html"><img src="../imagenes brawl kc/finx.jpeg" alt="finx"></a>
+            <a href="lumi.html"><img src="../imagenes brawl kc/lumi.jpeg" alt="lumi"></a>
+        </div>
+    </div>
+</body>
+</html>
